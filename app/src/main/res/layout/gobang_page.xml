@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ededed"
+    tools:context="com.lifebox.gobang.GobangActivity">
+
+    <include layout="@layout/gobang_page_top"/>
+    <LinearLayout
+        android:id="@+id/about_gobang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="10dp"
+        android:background="@null"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="#bfbfbf"
+            android:text="@string/gobang_say"/>
+    </LinearLayout>
+    <com.lifebox.gobang.ChessBoardView
+        android:id="@+id/boardView"
+        android:layout_below="@+id/about_gobang"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/boardView"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+        <Button
+            android:id="@+id/exit_gobang"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="30sp"
+            android:textSize="18sp"
+            android:background="@drawable/shape"
+            android:text="退出游戏" />
+        <Button
+            android:id="@+id/restart_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="30sp"
+            android:textSize="18sp"
+            android:background="@drawable/shape"
+            android:text="再来一局"/>
+    </LinearLayout>
+</RelativeLayout>

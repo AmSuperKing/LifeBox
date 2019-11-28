@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">生活盒子</string>
+    <string name="title">标题:</string>
+    <string name="content">内容:</string>
+    <string name="title2">无标题:</string>
+    <string name="time">年/月/日 时间</string>
+    <string name="New">新建</string>
+    <string name="back">退出</string>
+    <string name="share">分享</string>
+    <string name="add_note">便签记事</string>
+    <string name="new_note">添加便签</string>
+    <string name="notice_note">通知栏备忘</string>
+    <string name="local_music">本地音乐</string>
+    <string name="qian_music">千千音乐</string>
+    <string name="fivend_music">5nd音乐电台</string>
+    <string name="qingmo_guangbo">清沫广播</string>
+    <string name="douban">豆瓣FM</string>
+    <string name="ximalaya">喜马拉雅</string>
+    <string name="weibo">微博网页版</string>
+    <string name="dingxiang">丁香医生</string>
+    <string name="infoq">InfoQ</string>
+    <string name="readhub">Readhub</string>
+    <string name="biaoqing">搞笑表情</string>
+    <string name="haha">笑话段子</string>
+    <string name="game_one">
+        2048游戏共有16个格子，初始时初始数字由2或者4构成。
+        \n1、手指向一个方向滑动，所有格子会向那个方向运动。
+        \n2、相同数字的两个格子，相撞时数字会相加。
+        \n3、每次滑动时，空白处会随机刷新出一个数字的格子。
+        \n4、当界面不可运动时（当界面全部被数字填满时），游戏结束；当界面中最大数字是2048时，游戏胜利。"
+    </string>
+    <string name="gobang_say">
+        以下为棋盘，您可以进行自由博弈。
+    </string>
+    <string name="intruduce_one">一、关于生活盒子</string>
+    <string name="intruduce_one_content">
+        希望生活盒子应用包含的功能，能对你的生活起到一些作用。:）
+        \n软件的不足之处请原谅我们开发者的技术水平，如果有任何问题可以向我们进行反馈。
+    </string>
+    <string name="intruduce_two">二、功能简介</string>
+    <string name="intruduce_two_content">
+        1.便签记事
+        \n您可以此功能模块选择便签记事或者选择通知栏备忘
+        \n在您建立的便签还可以选择分析哦！
+    </string>
+    <string name="intruduce_three_content">
+        2.音乐模块
+        \n您可以此功能模块选择多种途径的音乐进行收听
+        \n本地音乐或者多种网络音乐任君选择。
+    </string>
+    <string name="intruduce_four_content">
+        3.应用盒子
+        \n您可以此功能模块选择四大模块中的不同应用哦，
+        \n在此模块希望能更丰富您的app使用！
+    </string>
+    <string name="intruduce_five_content">
+        4.我的页面
+        \n您可以此功能对应用了解更多哦！
+    </string>
+</resources>

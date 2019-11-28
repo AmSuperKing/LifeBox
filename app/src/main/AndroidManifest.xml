@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.lifebox">
+
+    <!-- 网络允许 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- 允许访问外部存储的文件 -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"></uses-permission>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+    <!-- 允许应用程序向用户词典中写入新词 -->
+    <uses-permission android:name="android.permission.READ_USER_DICTIONARY"/>
+    <!-- 允许程序写入个人资料数据 -->
+    <uses-permission android:name="android.permission.READ_PROFILE"/>
+    <!-- 监听电话呼出 -->
+    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS"/>
+    <!-- 监听电话状态改变 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <!-- 允许程序修改声音设置信息 -->
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <!-- 允许程序在手机屏幕关闭后后台进程仍然运行 -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <uses-permission android:name="android.permission.RESTART_PACKAGES"></uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Activity.SplashScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activity.MainActivity"></activity>
+        <activity android:name="com.lifebox.Activity.LocalMusic"></activity>
+        <activity android:name="com.lifebox.note.NoteActivity"></activity>
+        <activity android:name="com.lifebox.note.NewNote"></activity>
+        <activity android:name=".Activity.Send_Notice"></activity>
+        <activity android:name=".Activity.StartQianMusic"></activity>
+        <activity android:name=".Activity.StartFivendMusic"></activity>
+        <activity android:name=".Activity.Qingmo"></activity>
+        <activity android:name=".Activity.Douban"></activity>
+        <activity android:name=".Activity.Ximalaya"></activity>
+        <activity android:name=".Activity.Weibo"></activity>
+        <activity android:name=".Activity.Dingxiang"></activity>
+        <activity android:name=".Activity.InfoQ"></activity>
+        <activity android:name=".Activity.Readhub"></activity>
+        <activity android:name=".Activity.Biaoqing"></activity>
+        <activity android:name=".Activity.Haha"></activity>
+        <activity android:name=".Activity.Convert"></activity>
+        <activity android:name=".Activity.Erweima"></activity>
+        <activity android:name=".Activity.Koutu"></activity>
+        <activity android:name=".Activity.PicCompressed"></activity>
+        <activity android:name=".Activity.PingPic"></activity>
+        <activity android:name=".Activity.AmazingPic"></activity>
+        <activity android:name=".game2048.Game2048"></activity>
+        <activity android:name=".gobang.GobangActivity"></activity>
+        <activity android:name=".Activity.About_lifebox"></activity>
+        <activity android:name=".pianotiles.Pianotiles"></activity>
+        <activity android:name=".puzzle.Puzzle"></activity>
+    </application>
+
+</manifest>
